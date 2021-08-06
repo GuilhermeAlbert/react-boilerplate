@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./resources/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css");
+@import url("react-toastify/dist/ReactToastify.css");
+
+.error {
+  color: #9b111e;
+}
+
+.loading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+}
+
+.centralize {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
